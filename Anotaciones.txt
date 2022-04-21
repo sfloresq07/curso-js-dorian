@@ -1,0 +1,50 @@
+¿Qué es Javascript?
+
+Es un lenguaje de programación.
+Lo creó Brendan Eich en una semana.
+Es el único lenguaje de programación que puede interpretar el navegador.
+El nombre se le puso porque en ese momento estaba de moda Java.
+JavaScript ha sido mal visto desde su inicio hasta el 2009  aproximadamente.
+Hasta 2009 se podía utilizar sólo del lado del cliente. Actualmente con 
+Node.js podemos ejecutarlo en un servidor.
+
+HISTORIA DE JAVASCRIPT
+
+1995 - Netscape crea JavaScript
+1997 - Netscape se lleva JavaScript a ECMA (European Computer Manufacturers 
+Association)
+1997 - Se lanza el estándar ECMA-262 y se crea ECMAScript 1.0
+1998 - ECMAScript2 - Ajuste con el estándar internacional
+1999 - ECMAScript3
+2009 - ECMAScript5
+2011 - ECMAScript5.1
+2015 - ECMAScript6
+
+TECNOLOGÍAS DESCENDIENTES DE JAVASCRIPT
+
+Tecnologías Independientes
+
+* AJAX
+*jQuery
+*nodeJS
+*JSON
+
+Frameworks
+
+*Angular
+*React
+*VueJs
+
+DONDE ESCRIBIR CÓDIGO
+
+*Se necesita un editor de texto, no un procesador de texto, por lo que word no sirve
+*Existen varias alternativas:
+	*La consola del navegador directamente
+	*Instalar Node.js
+	*Sublime Text
+	*Atom
+	*Visual Studio Code
+	*Brackets
+	*Notepad++
+	*Bloc de notas
+
