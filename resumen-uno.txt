@@ -1,0 +1,42 @@
+RESUMEN UNO
+
+Inicie con la declaración, inicializacion y modificación de variables
+
+let numero = 5 esto es declaración e inicialización
+ numero = 54 esto es modificación
+
+También cuales son los operadores de javascrit
+
+Los matematicos: + - * / %
+Los de Incremento y Decremento: a++ ++a a-- --a
+Y los de Asignacion =
+	y se declaran de la siguiente manera:
+	
+	Asignación			=
+	Suma y asignación		a+=3(a=a+3)
+	Resta y asignación		a-=3(a=a-3)
+	Multiplicación y asignación	a*=3(a=a*3)	
+	División y asignación		a/=2(a=a/2)
+	Módulo y asignación		a%=2(a=a%2) 
+
+
+En los metodos string
+
+vi la propiedad length que es para ver la longitud de la cadena
+
+Y diferentes metodos como
+
+- toUpperCase() -> Devuelve la cadena a mayúsculas
+- toLowerCase() -> Devuelve la cadena a minusculas
+- indexOf(String) -> Devuelve la posición en la que se encuentra el String
+- replace(valor a buscar, valor nuevo) -> Remplaza el fragmento de la 
+cadena que le digamos y pone el valor nuevo
+- substring(inicio [,fin]) -> Extrae los caracteres desde inicico hasta el fin
+- slice(inicio [,fin]) -> Igual que substring pero admite valores negativos
+- trim() -> Elimina los espacios al inciio y al final de la cadena
+- startsWith(valor [,inicio]) -> Sirve para saber si la cadena empieza con ese valor
+- endsWith(valor[,longitud]) .> Sirve para saber si la cadena termina con ese valor
+- includes(valor[,inicio]) -> Igual que indexOf pero devuelve true o false
+- repeat(,valor) -> Repite el string el número de veces que le indiquemos
+- Template Strings ->proporcionan una manera fácil de interpolar variables 
+y expresiones en cadenas. 

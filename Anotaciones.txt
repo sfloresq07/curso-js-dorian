@@ -24,27 +24,115 @@ TECNOLOGÍAS DESCENDIENTES DE JAVASCRIPT
 
 Tecnologías Independientes
 
-* AJAX
-*jQuery
-*nodeJS
-*JSON
+-AJAX
+-jQuery
+-nodeJS
+-JSON
 
 Frameworks
 
-*Angular
-*React
-*VueJs
+-Angular
+-React
+-VueJs
 
 DONDE ESCRIBIR CÓDIGO
 
-*Se necesita un editor de texto, no un procesador de texto, por lo que word no sirve
-*Existen varias alternativas:
-	*La consola del navegador directamente
-	*Instalar Node.js
-	*Sublime Text
-	*Atom
-	*Visual Studio Code
-	*Brackets
-	*Notepad++
-	*Bloc de notas
+Se necesita un editor de texto, no un procesador de texto, por lo que word no sirve
+Existen varias alternativas:
+	-La consola del navegador directamente
+	-Instalar Node.js
+	-Sublime Text
+	-Atom
+	-Visual Studio Code
+	-Brackets
+	-Notepad++
+	-Bloc de notas
+
+SINTAXIS DE JAVASCRIPT
+
+Es case sensitive: Distingue las mayusculas de las minusculas
+	Numero no es igual numero
+Es de tipado débil o dinámico
+	Las variables son del tipo de dato que almacenen
+Las sentencias finalizan con punto y coma (;)
+	No es obligatorio pero es muy recomendable
+Los bloques finalizan con llave de cierre (})
+	De forma opcional se puede añadir un ; después de }
+
+VARIABLES Y CONSTANTES / SCOPE O ÁMBITO
+
+Una varible es un espacio que reservamos en memoria para almacenar un dato que podrá
+cambiar durante la ejecución de nuestro programa.
+
+La palabra reservada para declarar variables es "let" no es recomendable usar "var"
+
+Las variables se pueden declarar, inicializar y modificar.
+
+Una constante es un espacio que reservamos en memoria para almacenar un dato que no
+cambiará durante la ejecución de nuestro programa.
+La palabra reservada para declarar constantes es "const"
+
+Scope o ámbito es la zona donde existe nuestra variableo constante.
+
+DECLARACIÓN, INICIALIZACIÓN Y MODIFICACIÓN
+
+Una variable se declara con la siguiente estructura:
+	let numero;
+Una variable se inicializa con la siguiente estructura:
+	mumero = 5
+Se puede declarar e inicializar en la misma sentencia:
+	let numero = 5
+Para modificar el valor de una variable existente:
+	numero = 3
+Las constantes solo admiten la declaración e inicialización en la misma sentencia
+	const PI = 3.14;
+
+TIPOS DE DATOS EN JAVASCRIPT
+
+Primitivos:
+	-Numeros -> let numero = 5;
+	-Strings (cadenas) -> let palabra = 'hola' ; let palabra "hola";
+	-Boolean -> let respuesta = true; let respuesta = false;
+	-Undefined
+	-Null
+	-Symbol
+
+OPERADORES EN JAVASCRIPT
+
+MATEMÁTICOS
+
+Suma / Concatenación 		+
+Resta				-
+Multiplicación			*
+División			/
+Módulo				%
+
+ASIGNACIÓN
+
+Asignación			=
+Suma y asignación		a+=3(a=a+3)
+Resta y asignación		a-=3(a=a-3)
+Multiplicación y asignación	a*=3(a=a*3)	
+División y asignación		a/=2(a=a/2)
+Módulo y asignación		a%=2(a=a%2)
+
+INCREMENTO / DECREMENTO
+
+Post-incremento en 1		a++
+Pre-incremento en 1		++a
+Post-decremento en 1		a--
+Pre-decremente en 1		--a
+
+MÉTODOS Y PROPIEDADES DE LOS STRING
+
+Método: Es todo aquello que la cadena puede hacer. Ej: convertirse en mayúsculas
+Propiedad: Son las caraterísticas que la cadena tiene por ser una cadena. Ej: longitud
+
+Se emplean usando nomenclatura del punto:
+
+	cadena.método
+	cadena.propiedad
+
+
+	
 
