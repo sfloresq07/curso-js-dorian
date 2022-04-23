@@ -133,6 +133,118 @@ Se emplean usando nomenclatura del punto:
 	cadena.método
 	cadena.propiedad
 
+OBJETO MATH
+
+Es un objeto que se utiliza para operaciones matemáticas más específicas.
+Al ser un objeto también utiliza la nomenclatura del punto.
+Y para usarse tiene que ser por su nombre.
+
+Propiedades:
+	Math.E - Math.Pi
+
+Métodos:
+	Math.abs(x) Devuelve el valor absoluto de x.
+	Math.celi(x) Devuelve el entero más grande mayor o igual que un número.
+	Math.floor(x) Devuelve el entero más pequeño menor o igual que un número.
+	Math.pow(x,y) Devuelve la potencia de x elevado a y.
+	Math.sqrt(x) Devuelve la raiz cuadrada de x.
+	Math.random() Genera un número pseudoaleatorio entre 0 y 1.
+	Math.round(x) Devuelve el valor de un número redondeado al entero más cercano.
+	Math.sign(x) Devuelve el signo de la x, que indica si x es positivo, negativo o cero.
 
 	
+FLUJO DE UN PROGRAMA
+
+El flujo de un programa siempre será de arriba abajo
+
+let num = 2;			|	Estructuras de control de flujo: 
+				|		-Condicionales	
+console.log(num);		|			-Simples
+				|			-Compuestos
+num = 5;			|			-Múltiples
+				|		-Bucles
+console.log(num)		|			-Determinados
+				|			-Indeterminados
+let word = "Hola Mundo";	|
+				|
+console.log(word);		|
+				˅
+
+ESTRUCTURA IF - ELSE
+
+Sintaxis:
+	Condición Simple:
+		if(condición) // codigo a ejecutar
+		if(condición){
+			//código a ejecutar1 		       
+			//código a ejecutar2
+			...
+			}
+
+	Condición compuesta:
+		if(condición) // código a ejecutar
+		else//código a ejecutar
+
+
+ESTRUCTURA SWITCH
+
+Se utiliza para elegir un camino de varios preestablecidos. Tenemos 2
+tipos principales:
+
+Sintaxis simple:		|		Sintaxis múltiple:		
+	switch(evaluacion){	|		switch(evaluacion){
+	case n1:		|		case n1:
+	//código		|		case n2:
+	break;			|		case n3:
+	case n2:		|		//código
+	//codigo		|		break;
+	break;			|		default:
+	default:		|		//código
+	//código		|		}
+	}			|
+
+OPERADOR TERNARIO
+
+Se utiliza cuando una condición será tru o false, al igual que if.
+Su ejecución puede tener una o varias sentencias, en caso iran separadas
+por comas y entre paréntesis.
+
+Sintaxis:
+
+(condición) ? true : false
+
+(condición) ? 
+	(primera sentencia,
+	segunda sentencia)
+	:
+	(primera sentencia,
+	segunda sentencia)
+
+NOTA: No es obligatorio que si el true tiene varias sentencias el false
+tenga la misma cantidad.
+
+ARRAYS
+
+-Son estructuras que nos permiten almacenar varios datos y agruparlos.
+-Se pueden llenar con cualquier tipo de dato válido en JavaScript y 
+deben ir separados por comas.
+-Se pueden mezclar tipos de datos, pero no es recomendable.
+-Se declaran con llaves cuadradas o corchetes [].
+-Pueden declararse vacíos o con un contenido ya establecido.
+-Pueden añadirse o eliminarse elementos en el momento que queramos.
+
+let número = 5
+
+let array = []
+
+let números = [¨1,2,3,4,5]
+
+-Cada uno de los elementos podrá ser identificado por su índice, es
+decir su posición.
+-Los índices empiezan a contar desde 0.
+
+	|1|2|3|4|5|
+	|0|1|2|3|4|
+
+
 

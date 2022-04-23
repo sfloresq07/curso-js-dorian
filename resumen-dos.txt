@@ -1,0 +1,83 @@
+Los objetos math que s eutilizan para operacioones matematicas
+especificas la cual su nomenclatura se utiliza con punto
+Esta las propiedades Math.E
+Y los métodos
+Math.abs(x) Devuelve el valor absoluto de x.
+Math.celi(x) Devuelve el entero más grande mayor o igual que un número.
+Math.floor(x) Devuelve el entero más pequeño menor o igual que un número.
+Math.pow(x,y) Devuelve la potencia de x elevado a y.
+Math.sqrt(x) Devuelve la raiz cuadrada de x.
+Math.random() Genera un número pseudoaleatorio entre 0 y 1.
+Math.round(x) Devuelve el valor de un número redondeado al entero más cercano.
+Math.sign(x) Devuelve el signo de la x, que indica si x es positivo, negativo o cero.
+
+Tambien vi el flujo del un programa que siempre será de arriba abajo.
+
+La estructura IF - ELSE
+
+La cual su sintaxis es:
+Sintaxis:
+	Condición Simple:
+		if(condición) // codigo a ejecutar
+		if(condición){
+			//código a ejecutar1 		       
+			//código a ejecutar2
+			...
+			}
+
+	Condición compuesta:
+		if(condición) // código a ejecutar
+		else//código a ejecutar
+
+Se realizo el primer ejercicio utilizando condicionales
+Que fue Ordenar 3 numeros de mayor a menor y de menor a mayor.
+
+Posterior se estudio la estructura Switch, que se utiliza pra elegir un camino de varios preestablecidos
+Su sintaxis es:
+
+Sintaxis simple:		|		Sintaxis múltiple:		
+	switch(evaluacion){	|		switch(evaluacion){
+	case n1:		|		case n1:
+	//código		|		case n2:
+	break;			|		case n3:
+	case n2:		|		//código
+	//codigo		|		break;
+	break;			|		default:
+	default:		|		//código
+	//código		|		}
+
+Los OPERADORES TERNARIOS
+
+Que se utiliza cuando una condición será tru o false, al igual que if.
+Su ejecución puede tener una o varias sentencias, en caso iran separadas
+por comas y entre paréntesis.
+
+No es obligatorio que si el true tiene varias sentencias el false
+tenga la misma cantidad.
+
+Su sitanxis es: 
+
+Sintaxis:
+
+(condición) ? true : false
+
+(condición) ? 
+	(primera sentencia,
+	segunda sentencia)
+	:
+	(primera sentencia,
+	segunda sentencia)
+
+Y comenzamos a ver los inicial de los array
+
+Que son estrucutras que permiten almacenar varios datos y agruparlos.
+let array = []
+
+let números = [¨1,2,3,4,5]
+
+-Cada uno de los elementos podrá ser identificado por su índice, es
+decir su posición.
+-Los índices empiezan a contar desde 0.
+
+	|1|2|3|4|5|
+	|0|1|2|3|4|
