@@ -133,25 +133,161 @@ Se emplean usando nomenclatura del punto:
 	cadena.método
 	cadena.propiedad
 
-OBJETO MATH
+Strings 
 
-Es un objeto que se utiliza para operaciones matemáticas más específicas.
-Al ser un objeto también utiliza la nomenclatura del punto.
-Y para usarse tiene que ser por su nombre.
+let cadena = "Hola Mundo";
 
 Propiedades:
-	Math.E - Math.Pi
+
+length -> Devuelve la longitud de la cadena
+
+prototype -> Le permite agregar propiedades y métodos a un objeto
+
+constructor -> Devuelve la función constructora de la cadena.
+
+Metodos:
+
+Todos los metodos devuelven una cadena nueva, la cadena
+original no será modificada.
+
+toUpperCase() -> Devuelve la cadena en mayúsculas
+
+toLowerCase() -> Devuelve la cadena en minúscula
+
+indexOf(string) -> Devuelve la posición en la que se encuentra
+el string, si no lo encuentra devuelve -1 (Devuelve solo la
+primera coincidencia)
+
+replace(valor a buscar, valor nuevo) -> Reemplaza el fragmento
+de la cadena que le digamos y pone el nuevo valor.
+
+substring(inicio [,fin]) -> Extrae los caracteres desde inicio
+hasta fin (el final no se excluye)
+Sino se incluye el fin extrae hasta el final.
+
+slice(inicio [,fin]) -> Igual que substring pero admite valores
+negativos, si ponemos valores negativos empezará desde atras
+Si no se incluye el final extrae hasta el final.
+
+trim()-> Elimina los espacios al inicio y al final de la cadena.
+
+--ES6-- 
+ECMAScript 2015 fue la segunda revisión importante de 
+JavaScript. ECMAScript 2015 también se conoce como 
+ES6 y ECMAScript 6. Este capítulo describe las funciones más 
+importantes de ES6.
+
+ECMAScript es la especificación que este estándar representa. 
+ECMAScript proporciona las reglas, detalles y directrices 
+del lenguaje
+
+startsWith(valor [,inicio]) -> Sirve para saber si la cadena
+empieza con ese valor. Devuelve true o false
+
+endsWith(valor[,longitud]) -> Sirve para saber si la cadena
+termina con ese valor. Devuelve true o false
+
+includes(valor[,inicio]) Igual que indexOf pero devuelve true
+o false
+
+repeat (valor) -> Repite el string el número de veces que le
+indiquemos.
+
+charAt() -> Devuelve el carácter en un índice 
+especificado (posición)
+
+charCodeAt() -> Devuelve el Unicode del carácter en un 
+índice especificado
+
+concat() -> Devuelve dos o más cadenas unidas
+
+fromCharCode -> Devuelve valores Unicode como caracteres
+
+lastIndexOf() -> Devuelve valores Unicode como caracteres
+
+localeCompare -> Compara dos cadenas en la configuración 
+regional actual
+
+match() -> Busca en una cadena un valor o una expresión 
+regular y devuelve las coincidencias 
+
+search() -> Busca un valor o una expresión regular en 
+una cadena y devuelve el índice (posición) de la coincidencia
+
+split() -> Divide una cadena en una matriz de subcadenas
+
+substr() -> Extrae una cantidad de caracteres de una cadena, 
+desde un índice de inicio (posición)
+
+toLocaleLowerCase() -> Devuelve una cadena convertida a 
+letras minúsculas, utilizando la configuración regional del host
+
+toLocaleUpperCase() -> Devuelve una cadena convertida a 
+letras mayúsculas, utilizando la configuración regional del host
+
+toString() -> Devuelve una cadena o un objeto de cadena como 
+una cadena
+
+valueOf() -> Devuelve el valor primitivo de una cadena o un 
+objeto de cadena
+
+OBJETO MATH
+
+Es un objeto que se utiliza para operaciones matemáticas más 
+específicas. Al ser un objeto también utiliza la nomenclatura 
+del punto. Y para usarse tiene que ser por su nombre.
+
+Propiedades:
+	Math.E 
+	Math.Pi
 
 Métodos:
 	Math.abs(x) Devuelve el valor absoluto de x.
-	Math.celi(x) Devuelve el entero más grande mayor o igual que un número.
-	Math.floor(x) Devuelve el entero más pequeño menor o igual que un número.
+	Math.acos(x) Devuelve el arcocoseno de x, en radianes.
+	Math.acosh(x) Devuelve el arcocoseno hiperbólico de x.
+	Math.asin(x) Devuelve el arcoseno de x, en radianes.
+	Math.asinh(x) Devuelve el arcoseno hiperbólico de x.
+	Math.atan(x) Devuelve la arcotangente de x como un 
+	valor numérico entre -PI/2 y PI/2 radianes
+	Math.atan2(y, x) Devuelve el arcotangente del cociente 
+	de sus argumentos.
+	Math.atanh(x) Devuelve la arcotangente hiperbólica de x.
+	Math.cbrt(x) Devuelve la raíz cúbica de x.
+	Math.ceil(x) Devuelve el entero más grande mayor o igual 
+	que un número.
+	Math.clz32(x) Devuelve el número de ceros iniciales en 
+	una representación binaria de 32 bits de x.
+	Math.cos(x) Devuelve el coseno de x (x está en radianes).
+	Math.cosh(x) Devuelve el coseno hiperbólico de x.
+	Math.exp(x) Devuelve el valor de Ex
+	Math.expm1(x) Devuelve el valor de Ex menos 1.
+	Math.floor(x) Devuelve el entero más pequeño menor o 
+	igual que un número.
+	Math.fround(x) Devuelve la representación flotante más 
+	cercana (precisión simple de 32 bits) de un número.
+	Math.log(x) Devuelve el logaritmo natural de x.
+	Math.log10(x)	Returns the base-10 logarithm of x.
+	Math.log1p(x)	Returns the natural logarithm of 1 + x.
+	Math.log2(x)	Returns the base-2 logarithm of x.
+	Math.max(x, y, z, ..., n) Devuelve el número con el 
+	valor más alto.
+	Math.min(x, y, z, ..., n) Devuelve el número con el 
+	valor más bajo.	
 	Math.pow(x,y) Devuelve la potencia de x elevado a y.
+	Math.random() Genera un número pseudoaleatorio entre 
+	0 y 1.
+	Math.round(x) Devuelve el valor de un número redondeado 
+	al entero más cercano.
+	Math.sign(x) Devuelve el signo de un número (comprueba
+	si es positivo con un 1, negativo con un -1 y cero).
+	Math.sin(x) Devuelve el seno de x (x está en radianes).
+	Math.sinh(x) Devuelve el seno hiperbólico de x.
 	Math.sqrt(x) Devuelve la raiz cuadrada de x.
-	Math.random() Genera un número pseudoaleatorio entre 0 y 1.
-	Math.round(x) Devuelve el valor de un número redondeado al entero más cercano.
-	Math.sign(x) Devuelve el signo de la x, que indica si x es positivo, negativo o cero.
-
+	Math.tan(x) Devuelve la tangente de un ángulo.
+	Math.tanh(x) Devuelve la tangente hiperbólica de un 
+	número.
+	Math.trunc(x) Devuelve la parte entera de un número (x).
+	
 	
 FLUJO DE UN PROGRAMA
 
@@ -205,9 +341,9 @@ Sintaxis simple:		|		Sintaxis múltiple:
 
 OPERADOR TERNARIO
 
-Se utiliza cuando una condición será tru o false, al igual que if.
-Su ejecución puede tener una o varias sentencias, en caso iran separadas
-por comas y entre paréntesis.
+Se utiliza cuando una condición será true o false, al igual que 
+if. Su ejecución puede tener una o varias sentencias, en caso 
+iran separadas por comas y entre paréntesis.
 
 Sintaxis:
 
@@ -220,8 +356,8 @@ Sintaxis:
 	(primera sentencia,
 	segunda sentencia)
 
-NOTA: No es obligatorio que si el true tiene varias sentencias el false
-tenga la misma cantidad.
+NOTA: No es obligatorio que si el true tiene varias sentencias 
+el false tenga la misma cantidad.
 
 ARRAYS
 
@@ -246,6 +382,90 @@ decir su posición.
 	|1|2|3|4|5|
 	|0|1|2|3|4|
 
+Propiedades de Array:
+
+	Array.length Devuelve el número de posiciones que 
+	contiene el array.
+	Array.constructor Devuelve la función que creó el 
+	prototipo del objeto Array.
+	Array.prototipo Le permite agregar propiedades y 
+	métodos a un objeto Array
+
+Métodos de Array:
+	
+	.concat() Une dos o más matrices y devuelve una 
+	copia de las matrices unidas.
+	.copyWithin() Copia elementos de matriz dentro 
+	de la matriz, hacia y desde posiciones especificadas.
+	.entries() Devuelve un par clave/valor Array Iteration
+	Object.
+	.every () Comprueba si todos los elementos de una matriz 
+	pasan una prueba.
+	.fill() Rellena los elementos de una matriz con un 
+	valor estático.
+	filter() Crea una nueva matriz con cada elemento de una 
+	matriz que pasa una prueba.
+	.find() Devuelve el valor del primer elemento en una 
+	matriz que pasa una prueba.
+	.findIndex() Devuelve el índice del primer elemento en 
+	una matriz que pasa una prueba.
+	.forEach() Llama a una función para cada elemento de 
+	la matriz.
+	.from() Crea una matriz a partir de un objeto.
+	.includes () Comprueba si una matriz contiene el 
+	elemento especificado.
+	.indexOf()	Devuelve el primer índice del elemento
+	que coincida con el valor especificado, o -1 si ninguno
+	es encontrado.
+	.isArray(variable a evaluar) Devuelve true si la
+	variable es un array de lo contrario devuelve false.
+	.join("separador")	Devuelve un string con el
+	separador que indiquemos, por defecto son comas.
+	keys() Devuelve un objeto de iteración de matriz, que 
+	contiene las claves de la matriz original.
+	.lastIndexOf()	Devuelve el último índice del elemento
+	que coincida con el valor especificado, o -1 si ninguno
+	es encontrado.
+	.map() Crea una nueva matriz con el resultado de llamar 
+	a una función para cada elemento de la matriz.
+	.pop()	Elimina el último elemnto de un array y
+	devuelve ese elemento.
+	.pus(element1, element2,...)	Añade uno o más elementos
+	al final del array y devuelve la nueva longitud.
+	.reduce () Reduce los valores de una matriz a un solo 
+	valor (de izquierda a derecha).
+	.reduceRight() Reduce los valores de una matriz a un solo 
+	valor (yendo de derecha a izquierda).
+	.reverse()	Invierte el orden de los elementos del
+	array.
+	.shift()	Elimina el primer elmento del array y
+	devuelve ese elemento.
+	.slice(a,b)	Extrae elementos de un array desde el 
+	índice a hasta el índice b. Si no existe b lo hace desde
+	a hasta el final, si no existe ni a ni b hace una copia
+	original.
+	.some()	Comprueba si alguno de los elementos de una 
+	matriz pasa una prueba.
+	.sort() Ordena los elementos de una matriz.
+	.splice(a,b,items)	Cambia el contenido de un array
+	eliminando elementos existentes y/o agregando nuevos.
+		a: indice de inicio
+		b: número de elementos (opcional)
+		items:	Elementos a añadir en el caso que se 
+		añadan. (Opcional)
+	Si b es un valor distinto de 0 elimina el número de 
+	valores que le indiquemos en b y añade los valores de 
+	items a partir de la posición a.
+	Si b vale 0 añade los elementos a partir de la posición	a
+	y no elimina ninguno.
+	.toString() Convierte una matriz en una cadena y devuelve 
+	el resultado
+	.unshift(element1, element2,...)	Añade uno o más
+	elementos al comienzo del array y devuelve la nueva
+	longitud.
+	.valueOf() Devuelve el valor primitivo de una matriz.			
+	
+	
 BUCLES
 
 Se usan cuando queremos que un trozo de código se repita.
@@ -356,5 +576,59 @@ let names = [`Paco`,`Jose`,`Paula`,`María`]
 For in esta más indicado para recorrer objetos, 
 pero se puede recorrer array y dara el numero de la posición 
 y no el valor.
+
+Palabras reservadas de bucles:
+
+break	Rompe el bucle
+continue	Se salta la posicion que le indiquemos y despues
+continúa su ejecución.
+
+OBJETOS . INTRODUCCIÓN
+
+Son estructuras de datos que representan propiedades, valores
+y acciones que pueden realizar el objeto.
+Todos los objetos tienen propiedades o atributos y comportamientos
+o acciones representados por pares de clave (key) : valor (value)
+
+Los comportamientos se representan a través de funciones.
+
+Para acceder a las propiedades y acciones del ibjeto se utiliza
+la nomenclatura del punto.
+
+FUNCIONES INTRODUCCION
+
+Son fragmetnos dew código que escribimos para ejecutar una tarea
+y no volver a escribir el mismo código más de una vez. 
+Nos ayudan a modularizar el código
+Las funciones deben realizar una sola tarea.
+ Sintaxis:
+
+function nombrefuncion(){
+	//código a ejecutar
+}
+
+const nombrefuncion = () =>{
+	//código a ejecutar
+}
+
+Pueden recibir parámetros:
+
+function nombrefuncion(parametro1, parametro2){
+	//código a ejecutar
+}
+
+const nombrefuncion = (parametro1, parametro2) =>{
+	//código a ejecutar
+}
+
+Pueden devolver valores:
+
+function nombrefuncion(parametro1, parametro2){
+	return parametro1+parametro2
+}
+
+const nombrefuncion = (parametro1, parametro2) => parametro1+parametro2
+
+
 
 
