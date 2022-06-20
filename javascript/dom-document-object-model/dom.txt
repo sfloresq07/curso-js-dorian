@@ -1,0 +1,33 @@
+Document Object Model
+
+Es toda la estructura HTML del documento
+
+No es JavaScript, es una API (Aplication Programming Interface)
+
+ESTRUCTURA
+
+				Document
+				   |
+			          HTML
+        ___________________________|_______________________
+        HEAD			  LANG		        BODY
+__________|__________			       		 |
+|		     |			                 |
+|		     |			                 |
+META		   TITLE		    		 HI
+|		     |					 |
+|		     |				_________|_________
+|		     |				|	 |	   |
+CHARSET		    DOM			       ID      CLASS     TEXT
+
+
+NODOS
+
+Cada parte del arbol del documetno es un NODO
+
+Existen 12 tipos de nodos, pero los mas utilizados son:
+
+* Element node - 1 (Cualquier etiqueta HTML)
+* Text node - 3 (El contenido de la etiqueta)
+* Comment node - 8 (Cualquier comentario en HTML)
+
