@@ -1,0 +1,14 @@
+Atributos
+    element.getAttribute('attribute') = Devuelve el atributo
+    element.setAttribute('attribute', value) = Asiganar un valor al atributo
+
+Clases
+    element.classList.add('class','class',...) = Añadir todas las clases que queramos
+    element.classList.remove('class','class',...) = Eliminar las clases 
+    element.classList.toggle('class'[,force]) = Si tiene una clase la quita sino la tiene la pone. 
+    element.classList.contains('class') = Devuelve true o false si tiene una clase o no
+    element.classList.replace('oldClass', newClass) = Sustituye una clase por otra
+
+Atributos directos
+    id
+    value
